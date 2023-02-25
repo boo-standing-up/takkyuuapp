@@ -1,4 +1,4 @@
-"use strict";
+"use script";
 
 let baka2, baka;
 let n;
