@@ -9,7 +9,6 @@ function addCount() {
 }
 
 window.addEventListener("click", () => {
-  // 起動時の処理
   counter = document.getElementById("baka2");
   btnAdd = document.getElementById("baka");
   n = 0;
