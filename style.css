@@ -68,7 +68,7 @@ html {
   
   .score1 {
     grid-area: score1;
-    font-size: 120px;
+    font-size: 200px;
     color: orange
   }
   .score {
