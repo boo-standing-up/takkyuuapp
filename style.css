@@ -68,16 +68,17 @@ html {
   
   .score1 {
     grid-area: score1;
-    font-size: 200px;
+    font-size: 240px;
     color: orange
   }
   .score {
     grid-area: score;
-    font-size: 24px;
+    font-size: 100px;
   }
   .kekka {
     grid-area: kekka;
     font-size: 16px;
+    
   }
   
   .akamaru {
