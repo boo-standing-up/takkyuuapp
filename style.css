@@ -77,13 +77,14 @@ html {
   }
   .kekka {
     grid-area: kekka;
-    font-size: 16px;
+    font-size: 48px;
     
   }
   
   .akamaru {
     grid-area: akamaru;
-    font-size: 16px;
+    font-size: 48px;
+
   }
   
   .plass {
