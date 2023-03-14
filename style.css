@@ -53,6 +53,27 @@ html {
       "score1 score1 mainasu";
     gap: 10px;
   }
+
+  .coto2 {
+    color: aliceblue;
+    height: 100%;
+    display: grid;
+    grid-template:
+      "name name name" 100px
+      "score score1 score1"
+      "score score1 score1"
+      "score score1 score1"
+      "score score1 score1"
+      "score score1 score1"
+      "score score1 score1"
+      "kekka score1 score1"
+      "kekka score1 score1"
+      "akamaru score1 score1"
+      "akamaru score1 score1"
+      "plass score1 score1"
+      "mainasu score1 score1";
+    gap: 10px;
+  }
   
   .coto1 div {
     background-color: black;
