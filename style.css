@@ -84,16 +84,15 @@ html {
   .akamaru {
     grid-area: akamaru;
     font-size: 48px;
-
   }
   
   .plass {
     grid-area: plass;
-    font-size: 16px;
+    font-size: 48px;
   }
   .mainasu {
     grid-area: mainasu;
-    font-size: 16px;
+    font-size: 48px;
   }
   
   .polling_message {
