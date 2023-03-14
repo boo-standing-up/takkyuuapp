@@ -75,7 +75,7 @@ html {
     gap: 10px;
   }
   
-  .coto1 div {
+  .coto1 div,.coto2 div{
     background-color: black;
     display: flex;
     justify-content: center;
