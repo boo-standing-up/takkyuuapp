@@ -84,6 +84,7 @@ html {
     grid-area: name;
     text-align: center;
     font-size: 40px;
+    background-color: black;
   }
   
   .score1 {
