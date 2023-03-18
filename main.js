@@ -1,6 +1,6 @@
 "use script";
 
-let　disp_count, btn_reset;
+let disp_count, btn_reset;
 let n;
 
 function addCount(){
