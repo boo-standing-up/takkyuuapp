@@ -76,7 +76,6 @@ html {
   }
   
   .coto1 div,.coto2 div{
-    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,29 +90,34 @@ html {
     grid-area: score1;
     font-size:240px;
     color: orange;
+    background-color: black;
   }
   .score {
     grid-area: score;
     font-size: 100px;
+    background-color: black;
   }
   .kekka {
     grid-area: kekka;
     font-size: 48px;
-    
+    background-color: blue
   }
   
   .akamaru {
     grid-area: akamaru;
     font-size: 48px;
+    background-color: blue
   }
   
   .plass {
     grid-area: plass;
     font-size: 48px;
+    background-color: blue
   }
   .mainasu {
     grid-area: mainasu;
     font-size: 48px;
+    background-color: blue
   }
   
   .polling_message {
