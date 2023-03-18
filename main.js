@@ -1,17 +1,18 @@
 "use script";
 
-let baka2, baka;
+let　disp_count, btn_reset;
 let n;
 
-function addCount() {
-  n++;
-  counter.innerHTML = n;
+function addCount(){
+    n++;
+    disp_count.innerHTML = n;
 }
 
-window.addEventListener("click", () => {
-  counter = document.getElementById("baka2");
-  btnAdd = document.getElementById("baka");
-  n = 0;
+window.addEventListener("load", ()=>{
+    
+    disp_count = document.getElementById("disp_count");
+    btn_reset = document.getElementById("btn_reset");
+    n = 0;
 
-  btnAdd.addEventListener("click", addCount);
+    btn_reset.addEventListener("click", addCount);
 });
