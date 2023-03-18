@@ -8,11 +8,6 @@ function addCount(){
     disp_count.innerHTML = n;
 }
 
-function addCount(){
-    n++;
-    disp_count.innerHTML = n;
-}
-
 window.addEventListener("load", ()=>{
 
     disp_count = document.getElementById("disp_count");
