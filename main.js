@@ -1,17 +1,18 @@
 "use script";
 
-window.onload = function() {
-     let count_disp = document.getElementById("count");  
-     let count_up_btn = document.getElementById("count_up");
-     let reset_btn = document.getElementById("reset");
-     let count_value = 0;
+let disp_count, btn_reset;
+let n;
 
-     count_up_btn.onclick = function () {
-     count_value += 1;
-     count_disp.innerHTML = count_value;
-     }
+function addCount(){
+    n++;
+    disp_count.innerHTML = n;
+}
 
-     reset_btn.onclick = function () {
-          count_value = 0; count_disp.innerHTML = count_value;
-     }
-};
+window.addEventListener("load", ()=>{
+
+    disp_count = document.getElementById("disp_count");
+    btn_reset = document.getElementById("btn_reset");
+    n = 0;
+
+    btn_reset.addEventListener("click", addCount);
+});
