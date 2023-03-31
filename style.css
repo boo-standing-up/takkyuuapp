@@ -101,24 +101,31 @@ html {
   .kekka {
     grid-area: kekka;
     font-size: 48px;
-    background-color: blue
+    background-color: blue;
   }
   
   .akamaru {
     grid-area: akamaru;
     font-size: 48px;
-    background-color: blue
+    background-color: blue;
+  }
+
+  .circle{
+    width: 200px;/*幅*/
+    height: 200px;/*高さ*/
+    border-radius: 50%;/*角丸*/
+    background: red;
   }
   
   .plass {
     grid-area: plass;
     font-size: 48px;
-    background-color: blue
+    background-color: blue;
   }
   .mainasu {
     grid-area: mainasu;
     font-size: 48px;
-    background-color: blue
+    background-color: blue;
   }
   
   .polling_message {
