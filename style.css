@@ -111,8 +111,8 @@ html {
   }
 
   .circle{
-    width: 100px;/*幅*/
-    height: 100px;/*高さ*/
+    width: 50px;/*幅*/
+    height: 50px;/*高さ*/
     border-radius: 50%;/*角丸*/
     background: red;
   }
